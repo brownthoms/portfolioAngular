@@ -1,0 +1,99 @@
+@media screen and (min-width: 1px) and (max-width: 499px) {
+
+    #footer {
+        margin-bottom: 5px;
+        margin-left: 10px;
+        position: fixed;
+        height: 50px;
+        display: block;
+        width: 100%;
+        z-index: 9;
+        color: black;
+        padding: 20px 0 0 0;
+        align-items: center;
+        display: flex; }
+
+    #footer {
+        bottom: 0px; }
+
+    .tech {
+        font-weight: bold; }
+
+    .introdesktop {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 14vh;;
+        font-size: 14px; }
+
+    .btn-dark {
+        font-size: 13.5px; } }
+
+@media screen and (min-width: 500px) and (max-width: 1999px) {
+
+    #footer {
+        margin-bottom: 12px;
+        margin-left: 10px;
+        position: fixed;
+        height: 50px;
+        display: block;
+        width: 100%;
+        z-index: 9;
+        color: black;
+        padding: 20px 0 0 0;
+        align-items: center;
+        display: flex; }
+
+    #footer {
+        bottom: 0px; }
+
+    .btn-dark {
+        margin-left: 5px; }
+
+    .introdesktop {
+        font-size: 20px;
+        padding-top: 13%;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: #212529; }
+
+    .tech {
+        font-weight: bold; } }
+
+@media screen and (min-width: 2000px) and (max-width: 10000px) {
+
+    #footer {
+        margin-bottom: 12px;
+        margin-left: 10px;
+        position: fixed;
+        height: 50px;
+        display: block;
+        width: 100%;
+        z-index: 9;
+        color: black;
+        padding: 20px 0 0 0;
+        align-items: center;
+        display: flex; }
+
+    #footer {
+        bottom: 0px; }
+
+    .btn-dark {
+        margin-left: 5px; }
+
+    .bjrintro {
+        font-size: 45px; }
+
+    .textintro {
+        font-size: 25px; }
+
+    .techno {
+        font-size: 25px; }
+
+    .introdesktop {
+        padding-top: 13%;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: #212529; }
+
+    .tech {
+        font-weight: bold; } }

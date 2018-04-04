@@ -1,0 +1,46 @@
+<div class="parc animated fadeIn">
+    <div class="monparcours">
+        {{title}}
+    </div>
+    <div class="formation">
+        <div class="form">
+            {{part1}}
+        </div>
+        <div class="boutton">
+            <button type="button" name="button" class="btn btn-dark but1">{{btnvoir}}</button>
+        </div>
+        <div id="showform" class="toggle">
+        </div>
+    </div>
+    <div class="formation">
+        <div class="form">
+            {{part2}}
+        </div>
+        <div class="boutton">
+            <button type="button" name="button" class="btn btn-dark but2">{{btnvoir}}</button>
+        </div>
+        <div id="showexp" class="toggle">
+        </div>
+    </div>
+    <div class="formation">
+        <div class="form">
+            {{part3}}
+        </div>
+        <div class="boutton">
+            <button type="button" name="button" class="btn btn-dark but3">{{btnvoir}}</button>
+        </div>
+        <div id="showdip" class="toggle">
+        </div>
+    </div>
+</div>
+<div class="show">
+
+</div>
+<div id="footer" class="myMail">
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <a [routerLink]="['/section0']"><button class="btn btn-dark">{{onglet1}}</button></a>
+        <a [routerLink]="['/section1']"><button class="btn btn-dark">{{onglet2}}</button></a>
+        <a [routerLink]="['/section2']"><button class="btn btn-dark">{{onglet3}}</button></a>
+        <a [routerLink]="['/section4']"><button class="btn btn-dark">{{onglet5}}</button></a>
+    </div>
+</div>

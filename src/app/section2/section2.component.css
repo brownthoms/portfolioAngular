@@ -1,0 +1,190 @@
+a:link {
+    color: #212529; }
+
+a:visited {
+    color: #212529; }
+
+a:hover {
+    color: #212529; }
+
+a:active {
+    color: #212529; }
+
+.modaltitre {
+    font-weight: bold; }
+    
+@media screen and (min-width: 1px) and (max-width: 499px) {
+
+     #footer {
+        margin-bottom: 5px;
+        margin-left: 10px;
+        position: fixed;
+        height: 50px;
+        display: block;
+        width: 100%;
+        z-index: 9;
+        color: black;
+        padding: 20px 0 0 0;
+        align-items: center;
+        display: flex; }
+
+    #footer {
+        bottom: 0px; }
+
+    .desktop {
+        display: none; }
+
+    #carouselExampleIndicators {
+        height: 100vh; }
+
+    .titre {
+        padding-top: 30%;
+        font-size: 35px; }
+
+    .github {
+        font-size: 17px; }
+
+    ol {
+        margin-bottom: 40px; }
+
+    li {
+        cursor: pointer; }
+
+    .imgprojet {
+        height: 150px;
+        width: 220px; }
+
+    .btn-projet {
+        background-color: rgba(200,200,200,0.7); }
+
+    .btn-dark {
+        font-size: 13.5px; }
+
+    .modal-content {
+        background-color: rgb(200,200,200);}
+/*
+    .projet {
+        background-color: rgba(200,200,200,0.7);
+        height: 130px;
+        width: 220px;
+        border-radius: 10px;
+        margin: auto; }
+
+    .projet1 {}
+
+    .imgprojet1 {
+        height: 100px;
+        width: 170px;
+        margin-top: 15px; }
+
+    .projet2 {
+        height: 130px;
+        width: 220px;
+        border-radius: 10px;
+        margin: auto; }
+
+    .mesprojets {
+        font-size: 30px; }
+
+
+
+
+    .mesprojets {
+        padding-top: 20vh;
+        margin-bottom: 15px; }
+
+    .titreProjet {
+        font-weight: bold;
+        font-size: 20px;
+        margin: 10px; }
+    } */
+}
+
+@media screen and (min-width: 500px) and (max-width: 1999px) {
+
+    #footer {
+        margin-bottom: 12px;
+        margin-left: 10px;
+        position: fixed;
+        height: 50px;
+        display: block;
+        width: 100%;
+        z-index: 9;
+        color: black;
+        padding: 20px 0 0 0;
+        align-items: center;
+        display: flex; }
+
+    #footer {
+        bottom: 0px; }
+
+    .mesprojets{
+        text-align: center;
+        font-size: 3em;
+        padding-top: 15vh;
+        margin-bottom: 5vh; }
+
+    .projet {
+        background-color: rgba(200,200,200,0.7);
+        height: 150px;
+        width: 220px;
+        border-radius: 10px;
+        margin: 5px 5px; }
+
+    .imgprojet {
+        height: 80%;
+        width: 90%;
+        margin-top: 7.5%; }
+
+    .row {
+        width: 77%;
+        margin-left: 11.5%; }
+
+    #carouselExampleIndicators {
+        display: none; }
+
+    .btn-dark {
+        margin-left: 5px; } }
+
+@media screen and (min-width: 2000px) and (max-width: 10000px) {
+
+    #footer {
+        margin-bottom: 12px;
+        margin-left: 10px;
+        position: fixed;
+        height: 50px;
+        display: block;
+        width: 100%;
+        z-index: 9;
+        color: black;
+        padding: 20px 0 0 0;
+        align-items: center;
+        display: flex; }
+
+    #footer {
+        bottom: 0px; }
+
+    .titre {
+        font-size: 3em;
+        padding-top: 10%;
+        padding-bottom: 5px; }
+
+    .github {
+        font-size: 20px;
+        padding-bottom: 10px; }
+
+    .imgprojet {
+        height: 170px;
+        width: 220px; }
+
+    .btn-projet {
+        background-color: rgba(200,200,200,0.7); }
+
+    #carouselExampleIndicators {
+        display: none; }
+
+    .modal-content {
+        background-color: rgb(200,200,200);}
+
+    .btn-dark {
+        margin-left: 5px; } }

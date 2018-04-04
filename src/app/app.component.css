@@ -1,0 +1,170 @@
+.nom {
+    font-family: 'Poller One', cursive;
+}
+/* #section0 {
+    background-image: url("assets/img/Image-1.jpg");
+    background-size: cover; } */
+
+@media screen and (min-width: 1px) and (max-width: 499px) {
+
+    .section {
+        text-align: center; }
+
+    #header {
+        margin-left: 10px;
+        position: fixed;
+        height: 50px;
+        display: block;
+        width: 100%;
+        z-index: 9;
+        color: #212529;
+        padding: 15px 0 0 0; }
+
+    #sidebar {
+        margin-top: 25%;
+        position: fixed;
+        margin-left: 10px; }
+
+    #header {
+        top: 0px; }
+
+    #infoMenu {
+        bottom: 80px; }
+
+    #infoMenu li a {
+        color: #fff;
+        z-index: 999; }
+
+    .nom {
+        font-weight: bold; }
+
+    .info {
+        font-size: 12px;
+        margin-left: 5px; }
+
+    .myMail {
+        font-size: 14px; }
+
+    .logo {
+        height: 50px;
+        float: left;
+        margin-right: 15px; } }
+
+@media screen and (min-width: 500px) and (max-width: 1500px) {
+
+  .section {
+    text-align: center; }
+
+  #header {
+    margin-left: 10px;
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 9;
+    color: #212529;
+    padding: 20px 0 0 0; }
+
+  #footer {
+    margin-left: 10px;
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 9;
+    color: black;
+    padding: 20px 0 0 0;
+    margin-bottom: 5px; }
+
+  #header {
+    top: 0px; }
+
+  #footer {
+    bottom: 0px; }
+
+  #infoMenu {
+    bottom: 80px; }
+
+  #infoMenu li a {
+    color: #fff;
+    z-index: 999; }
+
+  .nom {
+    font-weight: bold; }
+
+  .info {
+    font-size: 10px; }
+
+  .myMail {
+    font-size: 10px; }
+
+    .logo {
+        height: 50px;
+        float: left;
+        margin-right: 15px; }}
+
+@media screen and (min-width: 1501px) and (max-width: 10000px) {
+
+  .section {
+    text-align: center; }
+
+  #header {
+    margin-left: 10px;
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 9;
+    color: #212529;
+    padding: 20px 0 0 0; }
+
+  /* #footer {
+    margin-left: 10px;
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 9;
+    color: black;
+    padding: 20px 0 0 0;
+    margin-bottom: 15px;
+    align-items: center;
+    display: flex; } */
+
+  #header {
+    top: 0px; }
+
+  /* #footer {
+    bottom: 0px; } */
+
+  #infoMenu {
+    bottom: 80px; }
+
+  #infoMenu li a {
+    color: #fff;
+    z-index: 999; }
+
+  .nom {
+    font-weight: bold;
+    font-size: 25px; }
+
+  .info {
+    font-size: 12px;
+    margin-left: 80px; }
+
+  .myMail {
+    font-size: 17px; }
+
+  .bjrintro {
+    font-size: 45px; }
+
+  .logo {
+      height: 50px;
+      float: left;
+      margin-right: 15px; } }

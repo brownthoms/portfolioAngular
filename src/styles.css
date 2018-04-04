@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+.all {
+    font-family: 'Jura', sans-serif;
+    background-image: url("assets/img/back9.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden; }
+
+#section0 {
+    background-color: rgb(200,200,200);
+    /* background-image: url("assets/img/Image-1.jpg"); */
+    /* background-size: cover; */
+     min-height: 100vh; }
