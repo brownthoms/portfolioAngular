@@ -6,6 +6,8 @@
     animation:
         typing 5s steps(40, end),
         blink-caret .75s step-end infinite;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* The typing effect */
@@ -22,11 +24,24 @@
 
 @media screen and (min-width: 1px) and (max-width: 499px) {
 
-    .bienvenue {
+    .bienv {
         padding-top: 60%;
         font-size: 2em;
         text-align: center;
-        color: black; }
+        color: #212529; }
+
+    .sur {
+        font-size: 2em;
+        text-align: center;
+        color: #212529; }
+        
+    .port {
+        font-size: 2em;
+        text-align: center;
+        color: #212529; }
+
+    .bienvenue {
+        display: none}
 }
 
 @media screen and (min-width: 500px) and (max-width: 1500px) {}
@@ -37,4 +52,11 @@
         font-size: 5em;
         padding-top: 15%;
         color: #212529; }
-}
+
+    .bienv {
+        display: none; }
+
+    .port {
+        display: none;}
+    .sur {
+        display: none;} }
